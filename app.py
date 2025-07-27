@@ -888,4 +888,4 @@ if __name__ == '__main__':
                     logger.error(f"Error loading session {session_id_from_dir} on startup: {e}")
                     
                     if __name__ == '__main__':
-    socketio.run(app, host='0.0.0.0', port=80)
+    socketio.run(app, host='0.0.0.0', port=5000)
